@@ -16,9 +16,9 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('\nHello there! Let\'s explore some US bikeshare data! This guided program will give you data from bikeshares in the 1st semester of 2017, around 3 major US cities!\n')
-    time.sleep(7)
+    
     print('Please choose the city, month and day parameters for your analysis.')
-    time.sleep(3)
+    
     print('\n'"First, input either 'Chicago', 'New York City' or 'Washington'."'\n')
     
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
@@ -271,7 +271,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        # Will provide the suer with the option to restart the program:    
+        # Will provide the user with the option to restart the program:    
         restart_values = ["yes", "no"]
         
         print('\nThis is all for now! If you wish, you can redo the inputs to result in different outcomes!')
@@ -285,7 +285,7 @@ def main():
         
         if restart != 'yes':
             break
-    time.sleep(1)
+    
     print('¨'*80)
     print('¨'*80)
     print('\n===== KEEP CYCLING!!! ==========================================================\n')
