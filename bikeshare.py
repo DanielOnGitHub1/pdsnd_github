@@ -271,7 +271,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        # Will provide the suer with the option to restart the program:    
+        # Will provide the user with the option to restart the program:    
         restart_values = ["yes", "no"]
         
         print('\nThis is all for now! If you wish, you can redo the inputs to result in different outcomes!')
@@ -285,7 +285,7 @@ def main():
         
         if restart != 'yes':
             break
-    time.sleep(1)
+    
     print('¨'*80)
     print('¨'*80)
     print('\n===== KEEP CYCLING!!! ==========================================================\n')
